@@ -1,0 +1,13 @@
+# Dependencies and local tooling
+node_modules/
+.expo/
+.asset-tools/
+
+# Generated previews and local verification artifacts
+wecare-app/qa/
+output/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+*.log

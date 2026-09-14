@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "WeCare",
+    "slug": "wecare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/brand/app-icon-512.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/brand/app-icon-192.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAFCFB"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand/app-icon-512.png",
+        "backgroundColor": "#0E3B2E"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/brand/favicon-48.png",
+      "name": "WeCare — Lắng nghe từng chuyển động",
+      "shortName": "WeCare",
+      "themeColor": "#0E3B2E",
+      "backgroundColor": "#FAFCFB"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
