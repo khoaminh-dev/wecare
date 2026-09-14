@@ -1,0 +1,14 @@
+# Local dependencies and Expo caches
+**/node_modules
+**/.expo
+.asset-tools
+.vercel
+
+# Local QA and packaged artifacts
+wecare-app/qa
+wecare-app/dist
+output
+
+# Local environment and logs
+.env*
+*.log
