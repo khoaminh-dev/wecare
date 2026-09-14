@@ -90,8 +90,8 @@ export function WeCareSite() {
       <section id="home" className="hero-sequence" aria-label="Hành trình WeCare">
         <div className="hero-sticky">
           <div className="hero-photo-wrap"><img className="hero-photo" src={dawn} alt="Người phụ nữ lớn tuổi đi dạo trong ánh bình minh trên đồi xanh" fetchPriority="high"/><div className="ambient-light"/></div><div className="hero-vignette"/>
-          <div className="hero-copy"><p className="hero-enter hero-kicker">CÔNG NGHỆ THẤU HIỂU. CUỘC SỐNG TRỌN VẸN.</p><h1 className="hero-enter">Để cuộc sống<br/>luôn <em>tiếp diễn.</em></h1><p className="hero-enter hero-description">Lắng nghe từng chuyển động.<br/>Nâng niu những điều làm nên cuộc sống.</p><button className="hero-enter button button-light" onClick={()=>go('ecosystem')}>Bước vào thế giới WeCare <Arrow/></button></div>
-          <div className="hero-after"><span className="eyeline">MỖI CHUYỂN ĐỘNG. MỘT CÂU CHUYỆN.</span><h2>Một bước chân.<br/>Cả một <em>thế giới.</em></h2><p>Chúng tôi chăm sóc những tín hiệu nhỏ,<br/>để bạn tiếp tục những điều lớn lao.</p></div>
+          <div className="hero-copy"><p className="hero-enter hero-kicker">WECARE — ĐỒNG HÀNH CÙNG PARKINSON</p><h1 className="hero-enter">Khi điều quan trọng<br/>vẫn chờ <em>phía trước.</em></h1><p className="hero-enter hero-description">WeCare lắng nghe từng chuyển động,<br/>để bạn sống theo nhịp riêng của mình.</p><button className="hero-enter button button-light" onClick={()=>go('ecosystem')}>Khám phá WeCare <Arrow/></button></div>
+          <div className="hero-after"><span className="eyeline">MỖI BƯỚC ĐI ĐỀU CÓ Ý NGHĨA.</span><h2>Hành trình phía trước.<br/><em>Vẫn là của bạn.</em></h2><p>Chúng tôi ở bên để những ngày bình thường<br/>tiếp tục được sống trọn vẹn.</p></div>
           <div className="hero-bottom"><button onClick={()=>go('story')} className="scroll-cue"><span className="scroll-tick"/> CUỘN ĐỂ CẢM NHẬN</button><span>WECARE — THE ART OF CARING</span></div>
         </div>
       </section>
