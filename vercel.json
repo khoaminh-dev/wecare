@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm ci --prefix wecare-app && npm run export:web --prefix wecare-app",
+  "outputDirectory": "wecare-app/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
